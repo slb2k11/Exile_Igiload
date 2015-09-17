@@ -16,7 +16,9 @@
 //																											//
 //	Ways from points 1 and 2 can not be used simultaneously!!!												//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//Edited by SLB2k11
+//Thx to Starfish for the Help with it 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //if true then show debug globalChat (TODO add more hints)
 IL_DevMod = false;
@@ -123,8 +125,8 @@ if (isnil "IL_Variables") then
 	IL_Supported_Vehicles_HEMTT = ["Exile_Car_HEMMT"];
 	IL_Supported_Vehicles_KAMAZ = ["Exile_Car_Zamak"];
 	IL_Supported_Vehicles_TEMPEST = ["Exile_Car_Tempest"];
-	IL_Supported_Vehicles_MOHAWK = [];
-	IL_Supported_Vehicles_CHINOOK = [];
+	IL_Supported_Vehicles_MOHAWK = []; //With Chopper ["Exile_Chopper_Mohawk_FIA"];
+	IL_Supported_Vehicles_CHINOOK = []; //With Chopper ["Exile_Chopper_Huron_Black", "Exile_Chopper_Huron_Green"]
 	IL_Supported_Vehicles_MH9 = [];
 	IL_Supported_Vehicles_C130J = [];
 	IL_Supported_Vehicles_C17 = [];
@@ -151,11 +153,11 @@ if (isnil "IL_Variables") then
 	IL_Supported_Hummvee = [];
 	IL_Supported_Quadbike = ["Exile_Bike_OldBike","Exile_Bike_MountainBike","Exile_Bike_Crosser","Exile_Bike_QuadBike_Black","Exile_Bike_QuadBike_Blue","Exile_Bike_QuadBike_Red","Exile_Bike_QuadBike_White","Exile_Bike_QuadBike_Nato","Exile_Bike_QuadBike_Csat","Exile_Bike_QuadBike_Fia","Exile_Bike_QuadBike_Guerilla01","Exile_Bike_QuadBike_Guerilla02"];
 	IL_Supported_Supply_Crate = ["B_supplyCrate_F", "IG_supplyCrate_F", "O_supplyCrate_F", "I_supplyCrate_F", "C_supplyCrate_F"];
-	IL_Supported_Veh_Ammo = ["Box_NATO_AmmoVeh_F", "Box_East_AmmoVeh_F", "Box_IND_AmmoVeh_F", "Land_CargoBox_V1_F", "ASC_B_box"];
+	IL_Supported_Veh_Ammo = ["Box_NATO_AmmoVeh_F", "Box_East_AmmoVeh_F", "Box_IND_AmmoVeh_F", "Land_CargoBox_V1_F", "ASC_B_box", "Box_NATO_Wps_F"];
 	IL_Supported_Barrel = ["Land_BarrelEmpty_F", "Land_BarrelEmpty_grey_F", "Land_BarrelSand_F", "Land_BarrelSand_grey_F", "Land_BarrelTrash_F", "Land_BarrelTrash_grey_F", "Land_BarrelWater_F", "Land_BarrelWater_grey_F", "Land_MetalBarrel_F"];
 	IL_Supported_Tank = ["Land_WaterBarrel_F", "Land_WaterTank_F"];
-	IL_Supported_Rubberboat = [];
-	IL_Supported_SDV = [];
+	IL_Supported_Rubberboat = ["Exile_Boat_RubberDuck_CSAT", "Exile_Boat_RubberDuck_Digital", "Exile_Boat_RubberDuck_Orange", "Exile_Boat_RubberDuck_Blue", "Exile_Boat_RubberDuck_Black"];
+	IL_Supported_SDV = ["Exile_Boat_SDV_CSAT", "Exile_Boat_SDV_Digital", "Exile_Boat_SDV_Grey"];
 	IL_Supported_Box_H1 = ["Box_NATO_Wps_F", "Box_East_Wps_F", "Box_IND_Wps_F", "Box_East_WpsLaunch_F", "Box_NATO_WpsLaunch_F", "Box_IND_WpsLaunch_F", "Box_IND_WpsSpecial_F", "Box_East_WpsSpecial_F", "Box_NATO_WpsSpecial_F", "Box_mas_all_rifle_Wps_F", "Box_mas_us_rifle_Wps_F", "Box_mas_ru_rifle_Wps_F", "Box_mas_mar_NATO_equip_F", "Box_mas_mar_NATO_Wps_F"];
 	IL_Supported_Box_H2 = ["Box_NATO_AmmoOrd_F", "Box_East_AmmoOrd_F", "Box_IND_AmmoOrd_F", "Box_NATO_Grenades_F", "Box_East_Grenades_F", "Box_IND_Grenades_F", "Box_NATO_Ammo_F", "Box_East_Ammo_F", "Box_IND_Ammo_F", "Box_IND_Support_F", "Box_East_Support_F", "Box_NATO_Support_F"];
 	IL_Supported_Cargo20 = ["Land_Cargo20_blue_F", "Land_Cargo20_brick_red_F", "Land_Cargo20_cyan_F", "Land_Cargo20_grey_F", "Land_Cargo20_light_blue_F", "Land_Cargo20_light_green_F", "Land_Cargo20_military_green_F", "Land_Cargo20_orange_F", "Land_Cargo20_red_F", "Land_Cargo20_sand_F", "Land_Cargo20_white_F", "Land_Cargo20_yellow_F"];
