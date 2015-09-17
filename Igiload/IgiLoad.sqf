@@ -1396,7 +1396,7 @@ if (isnil "IL_Procedures") then
 						//CARGO CONTAINERS - the left and right offset - negative values move the cargo to the left, positive values to the right
 						if ((typeOf _x) in IL_Supported_Pods) then
 						{
-							_x_cargo_offset = 0.1;
+							_x_cargo_offset = 0.05;
 						};
 
 						_obj_type = (typeOf _v);
