@@ -16,18 +16,7 @@
 //																											//
 //	Ways from points 1 and 2 can not be used simultaneously!!!												//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-<<<<<<< HEAD
 
-=======
-//Edited by SLB2k11
-//Thx to Starfish for the Help with it 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//if true then show debug globalChat (TODO add more hints)
-IL_DevMod = false;
-
-//waitUntil { !(isNull player) };
->>>>>>> origin/master
 waitUntil { time > 0 };
 IL_Script_Inst = time;
 //	VARIABLES
@@ -107,15 +96,9 @@ if (isnil "IL_Variables") then
 	IL_Supported_Vehicles_HEMTT = ["Exile_Car_HEMMT"];
 	IL_Supported_Vehicles_KAMAZ = ["I_Truck_02_covered_F","I_Truck_02_transport_F","Exile_Car_Zamak"];
 	IL_Supported_Vehicles_TEMPEST = ["Exile_Car_Tempest"];
-<<<<<<< HEAD
 	IL_Supported_Vehicles_MOHAWK = ["Exile_Chopper_Mohawk_FIA"];
 	IL_Supported_Vehicles_CHINOOK = ["Exile_Chopper_Huron_Black", "Exile_Chopper_Huron_Green"];
 	IL_Supported_Vehicles_MH9 = ["Exile_Chopper_Hummingbird_Green","Exile_Chopper_Hummingbird_Civillian_Blue","Exile_Chopper_Hummingbird_Civillian_Red","Exile_Chopper_Hummingbird_Civillian_ION","Exile_Chopper_Hummingbird_Civillian_BlueLine","Exile_Chopper_Hummingbird_Civillian_Digital", "Exile_Chopper_Hummingbird_Civillian_Elliptical", "Exile_Chopper_Hummingbird_Civillian_Furious","Exile_Chopper_Hummingbird_Civillian_GrayWatcher", "Exile_Chopper_Hummingbird_Civillian_Jeans", "Exile_Chopper_Hummingbird_Civillian_Light", "Exile_Chopper_Hummingbird_Civillian_Shadow", "Exile_Chopper_Hummingbird_Civillian_Sheriff", "Exile_Chopper_Hummingbird_Civillian_Speedy","Exile_Chopper_Hummingbird_Civillian_Sunset", "Exile_Chopper_Hummingbird_Civillian_Vrana", "Exile_Chopper_Hummingbird_Civillian_Wasp", "Exile_Chopper_Hummingbird_Civillian_Wave"];
-=======
-	IL_Supported_Vehicles_MOHAWK = []; //With Chopper ["Exile_Chopper_Mohawk_FIA"];
-	IL_Supported_Vehicles_CHINOOK = []; //With Chopper ["Exile_Chopper_Huron_Black", "Exile_Chopper_Huron_Green"]
-	IL_Supported_Vehicles_MH9 = [];
->>>>>>> origin/master
 	IL_Supported_Vehicles_C130J = [];
 	IL_Supported_Vehicles_C17 = [];
 
@@ -126,7 +109,6 @@ if (isnil "IL_Variables") then
 	IL_Supported_HEMTT = ["Exile_Car_HEMMT"];
 	IL_Supported_KAMAZ = ["I_Truck_02_covered_F","I_Truck_02_transport_F","Exile_Car_Zamak"];
 	IL_Supported_TEMPEST = ["Exile_Car_Tempest"];
-<<<<<<< HEAD
 	IL_Supported_Strider = ["I_MRAP_03_hmg_F","Exile_Car_Strider"];
 	IL_Supported_Hunter = ["B_MRAP_01_hmg_F","Exile_Car_Hunter"];
 	IL_Supported_Ifrit = ["O_MRAP_02_hmg_F", "Exile_Car_Ifrit"];
@@ -147,28 +129,6 @@ if (isnil "IL_Variables") then
 	IL_Supported_Box_H2 = ["Box_NATO_AmmoOrd_F", "Box_East_AmmoOrd_F", "Box_IND_AmmoOrd_F", "Box_NATO_Grenades_F", "Box_East_Grenades_F", "Box_IND_Grenades_F", "Box_NATO_Ammo_F", "Box_East_Ammo_F", "Box_IND_Ammo_F", "Box_IND_Support_F", "Box_East_Support_F", "Box_NATO_Support_F"];
 	IL_Supported_Cargo20 = ["Land_Cargo20_blue_F", "Land_Cargo20_brick_red_F", "Land_Cargo20_cyan_F", "Land_Cargo20_grey_F", "Land_Cargo20_light_blue_F", "Land_Cargo20_light_green_F", "Land_Cargo20_military_green_F", "Land_Cargo20_orange_F", "Land_Cargo20_red_F", "Land_Cargo20_sand_F", "Land_Cargo20_white_F", "Land_Cargo20_yellow_F"];
 	IL_Supported_TaruPods = ["Land_Pod_Heli_Transport_04_ammo_F", "Land_Pod_Heli_Transport_04_bench_F", "Land_Pod_Heli_Transport_04_box_F", "Land_Pod_Heli_Transport_04_covered_F", "Land_Pod_Heli_Transport_04_fuel_F", "Land_Pod_Heli_Transport_04_medevac_F", "Land_Pod_Heli_Transport_04_repair_F", "B_Slingload_01_Ammo_F", "B_Slingload_01_Medical_F", "B_Slingload_01_Fuel_F", "B_Slingload_01_Repair_F", "B_Slingload_01_Cargo_F"];
-=======
-	IL_Supported_Strider = [];
-	IL_Supported_Hunter = [];
-	IL_Supported_Ifrit = [];
-	IL_Supported_UGV = [];
-	IL_Supported_VAN = ["Exile_Car_Van_Black","Exile_Car_Van_White","Exile_Car_Van_Red","Exile_Car_Van_Guerilla01","Exile_Car_Van_Guerilla02","Exile_Car_Van_Guerilla03","Exile_Car_Van_Guerilla04","Exile_Car_Van_Guerilla05","Exile_Car_Van_Guerilla06","Exile_Car_Van_Guerilla07","Exile_Car_Van_Guerilla08","Exile_Car_Van_Box_Black","Exile_Car_Van_Box_White","Exile_Car_Van_Box_Red","Exile_Car_Van_Box_Guerilla01","Exile_Car_Van_Box_Guerilla02","Exile_Car_Van_Box_Guerilla03","Exile_Car_Van_Box_Guerilla04","Exile_Car_Van_Box_Guerilla05","Exile_Car_Van_Box_Guerilla06","Exile_Car_Van_Box_Guerilla07","Exile_Car_Van_Box_Guerilla08"];
-	IL_Supported_OFFROAD = ["Exile_Car_Offroad_Red","Exile_Car_Offroad_Beige","Exile_Car_Offroad_White","Exile_Car_Offroad_Blue","Exile_Car_Offroad_DarkRed","Exile_Car_Offroad_BlueCustom","Exile_Car_Offroad_Guerilla01","Exile_Car_Offroad_Guerilla02","Exile_Car_Offroad_Guerilla03","Exile_Car_Offroad_Guerilla04","Exile_Car_Offroad_Guerilla05","Exile_Car_Offroad_Guerilla06","Exile_Car_Offroad_Guerilla07","Exile_Car_Offroad_Guerilla08","Exile_Car_Offroad_Guerilla09","Exile_Car_Offroad_Guerilla10","Exile_Car_Offroad_Guerilla11","Exile_Car_Offroad_Guerilla12","Exile_Car_Offroad_Rusty1","Exile_Car_Offroad_Rusty2","Exile_Car_Offroad_Rusty3","Exile_Car_Offroad_Repair_Civillian","Exile_Car_Offroad_Repair_Red","Exile_Car_Offroad_Repair_Beige","Exile_Car_Offroad_Repair_White","Exile_Car_Offroad_Repair_Blue","Exile_Car_Offroad_Repair_DarkRed","Exile_Car_Offroad_Repair_BlueCustom","Exile_Car_Offroad_Repair_Guerilla01","Exile_Car_Offroad_Repair_Guerilla02","Exile_Car_Offroad_Repair_Guerilla03","Exile_Car_Offroad_Repair_Guerilla04","Exile_Car_Offroad_Repair_Guerilla05","Exile_Car_Offroad_Repair_Guerilla06","Exile_Car_Offroad_Repair_Guerilla07","Exile_Car_Offroad_Repair_Guerilla08","Exile_Car_Offroad_Repair_Guerilla09","Exile_Car_Offroad_Repair_Guerilla10","Exile_Car_Offroad_Repair_Guerilla11","Exile_Car_Offroad_Repair_Guerilla12"];
-	IL_Supported_SUV = ["Exile_Car_SUV_Red","Exile_Car_SUV_Black","Exile_Car_SUV_Grey","Exile_Car_SUV_Orange"];
-	IL_Supported_Hatchback = ["Exile_Car_Hatchback_Beige","Exile_Car_Hatchback_Green","Exile_Car_Hatchback_Blue","Exile_Car_Hatchback_BlueCustom","Exile_Car_Hatchback_BeigeCustom","Exile_Car_Hatchback_Yellow","Exile_Car_Hatchback_Grey","Exile_Car_Hatchback_Black","Exile_Car_Hatchback_Dark","Exile_Car_Hatchback_Rusty1","Exile_Car_Hatchback_Rusty2","Exile_Car_Hatchback_Rusty3","Exile_Car_Hatchback_Sport_Red","Exile_Car_Hatchback_Sport_Blue","Exile_Car_Hatchback_Sport_Orange","Exile_Car_Hatchback_Sport_White","Exile_Car_Hatchback_Sport_Beige","Exile_Car_Hatchback_Sport_Green"];
-	IL_Supported_Hummvee = [];
-	IL_Supported_Quadbike = ["Exile_Bike_OldBike","Exile_Bike_MountainBike","Exile_Bike_Crosser","Exile_Bike_QuadBike_Black","Exile_Bike_QuadBike_Blue","Exile_Bike_QuadBike_Red","Exile_Bike_QuadBike_White","Exile_Bike_QuadBike_Nato","Exile_Bike_QuadBike_Csat","Exile_Bike_QuadBike_Fia","Exile_Bike_QuadBike_Guerilla01","Exile_Bike_QuadBike_Guerilla02"];
-	IL_Supported_Supply_Crate = ["B_supplyCrate_F", "IG_supplyCrate_F", "O_supplyCrate_F", "I_supplyCrate_F", "C_supplyCrate_F"];
-	IL_Supported_Veh_Ammo = ["Box_NATO_AmmoVeh_F", "Box_East_AmmoVeh_F", "Box_IND_AmmoVeh_F", "Land_CargoBox_V1_F", "ASC_B_box", "Box_NATO_Wps_F", "Box_East_Wps_F", "Box_IND_Wps_F"];
-	IL_Supported_Barrel = ["Land_BarrelEmpty_F", "Land_BarrelEmpty_grey_F", "Land_BarrelSand_F", "Land_BarrelSand_grey_F", "Land_BarrelTrash_F", "Land_BarrelTrash_grey_F", "Land_BarrelWater_F", "Land_BarrelWater_grey_F", "Land_MetalBarrel_F"];
-	IL_Supported_Tank = ["Land_WaterBarrel_F", "Land_WaterTank_F"];
-	IL_Supported_Rubberboat = ["Exile_Boat_RubberDuck_CSAT", "Exile_Boat_RubberDuck_Digital", "Exile_Boat_RubberDuck_Orange", "Exile_Boat_RubberDuck_Blue", "Exile_Boat_RubberDuck_Black"];
-	IL_Supported_SDV = ["Exile_Boat_SDV_CSAT", "Exile_Boat_SDV_Digital", "Exile_Boat_SDV_Grey"];
-	IL_Supported_Box_H1 = ["Box_East_WpsLaunch_F", "Box_NATO_WpsLaunch_F", "Box_IND_WpsLaunch_F", "Box_IND_WpsSpecial_F", "Box_East_WpsSpecial_F", "Box_NATO_WpsSpecial_F", "Box_mas_all_rifle_Wps_F", "Box_mas_us_rifle_Wps_F", "Box_mas_ru_rifle_Wps_F", "Box_mas_mar_NATO_equip_F", "Box_mas_mar_NATO_Wps_F"];
-	IL_Supported_Box_H2 = ["Box_NATO_AmmoOrd_F", "Box_East_AmmoOrd_F", "Box_IND_AmmoOrd_F", "Box_NATO_Grenades_F", "Box_East_Grenades_F", "Box_IND_Grenades_F", "Box_NATO_Ammo_F", "Box_East_Ammo_F", "Box_IND_Ammo_F", "Box_IND_Support_F", "Box_East_Support_F", "Box_NATO_Support_F"];
-	IL_Supported_Cargo20 = ["Land_Cargo20_blue_F", "Land_Cargo20_brick_red_F", "Land_Cargo20_cyan_F", "Land_Cargo20_grey_F", "Land_Cargo20_light_blue_F", "Land_Cargo20_light_green_F", "Land_Cargo20_military_green_F", "Land_Cargo20_orange_F", "Land_Cargo20_red_F", "Land_Cargo20_sand_F", "Land_Cargo20_white_F", "Land_Cargo20_yellow_F"];
-	IL_Supported_Pods = ["Land_Pod_Heli_Transport_04_ammo_black_F","Land_Pod_Heli_Transport_04_repair_black_F","Land_Pod_Heli_Transport_04_bench_black_F","Land_Pod_Heli_Transport_04_covered_black_F","Land_Pod_Heli_Transport_04_medevac_black_F","Land_Pod_Heli_Transport_04_box_black_F","Land_Pod_Heli_Transport_04_fuel_black_F","Land_Pod_Heli_Transport_04_ammo_F","Land_Pod_Heli_Transport_04_repair_F","Land_Pod_Heli_Transport_04_bench_F","Land_Pod_Heli_Transport_04_covered_F","Land_Pod_Heli_Transport_04_medevac_F","Land_Pod_Heli_Transport_04_box_F","Land_Pod_Heli_Transport_04_fuel_F", "B_Slingload_01_Cargo_F", "B_Slingload_01_Fuel_F", "B_Slingload_01_Ammo_F" ,"B_Slingload_01_Medevac_F" ,"B_Slingload_01_Repair_F"];
->>>>>>> origin/master
 	
 	
 	IL_Supported_Cargo_MH9 = IL_Supported_Supply_Crate + IL_Supported_Barrel ; 
@@ -1203,15 +1163,6 @@ if (isnil "IL_Procedures") then
 						{
 							_x_cargo_offset = 0;
 						};
-<<<<<<< HEAD
-=======
-						// Links rechts positionierung der Cargo Container - geht nach links + nach rechts
-						//CARGO CONTAINERS - the left and right offset - negative values move the cargo to the left, positive values to the right
-						if ((typeOf _x) in IL_Supported_Pods) then
-						{
-							_x_cargo_offset = 0.05;
-						};
->>>>>>> origin/master
 
 						_obj_type = (typeOf _v);
 						if ((_obj_type in IL_Supported_Vehicles_VAN) && (_doors == "B")) then
@@ -2615,19 +2566,4 @@ if (_obj_main_type in IL_Supported_Vehicles_HEMTT) then
 	},[],IL_Action_S_Priority,false,true,"",
 	"((driver _target == _this) && (_target getVariable 'can_outside') && IL_Can_Outside)"
 	];
-<<<<<<< HEAD
 };
-=======
-};
-
-if (!(_vsupported) && (IL_DevMod)) then
-{
-	Player globalChat Format["Object type: ""%1"" is not supported.", _obj_main_type];
-};
-
-if (IL_DevMod) then
-{
-	Player globalChat Format["IgiLoad ""%1"" END.", IL_Script_Inst];
-};	
-//	EOF
->>>>>>> origin/master
