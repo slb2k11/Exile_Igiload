@@ -6,7 +6,7 @@ Installation:
 
 1. Copy Folder to your Missionfile
 2. Open Init.sqf in the root Folder of the Missionfile 
-3. Add this to it: 0 = execVM "IgiLoad\IgiLoadInit.sqf";
+3. Add this to it: [] = execVM "IgiLoad\IgiLoadInit.sqf";
 
 In the Igiload.sqf you will find Comments to configure it like you wishes.
 Choppers added behind // you see the Option
