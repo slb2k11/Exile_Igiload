@@ -490,7 +490,7 @@ if (isnil "IL_Variables") then
 	];
 	
 	
-	IL_Supported_Cargo_MH9 = IL_Supported_Supply_Crate + IL_Supported_Barrel ; 
+	IL_Supported_Cargo_MH9 = IL_Supported_Supply_Crate + IL_Supported_Barrel; 
 
 	IL_Supported_Cargo_Veh_Offroad = IL_Supported_Quadbike + IL_Supported_Karts + IL_Supported_Bicycles;
 	IL_Supported_Cargo_NonVeh_Offroad = IL_Supported_Supply_Crate + IL_Supported_Veh_Ammo + IL_Supported_Barrel + IL_Supported_Tank + IL_Supported_Box_H1 + IL_Supported_Box_H2;
@@ -500,7 +500,7 @@ if (isnil "IL_Variables") then
 	IL_Supported_Cargo_NonVeh_VAN = IL_Supported_Cargo_NonVeh_Offroad;
 	IL_Supported_Cargo_VAN = IL_Supported_Cargo_Veh_VAN + IL_Supported_Cargo_NonVeh_VAN;
 
-	IL_Supported_Cargo_Veh_Kamaz = IL_Supported_Quadbike + IL_Supported_Rubberboat + IL_Supported_SDV + IL_Supported_Hatchback + IL_Supported_UGV + IL_Supported_VAN + IL_Supported_OFFROAD + IL_Supported_SUV;
+	IL_Supported_Cargo_Veh_Kamaz = IL_Supported_Quadbike + IL_Supported_Karts + IL_Supported_Rubberboat + IL_Supported_SDV + IL_Supported_Hatchback + IL_Supported_UGV + IL_Supported_VAN + IL_Supported_OFFROAD + IL_Supported_SUV;
 	IL_Supported_Cargo_NonVeh_Kamaz = IL_Supported_Supply_Crate + IL_Supported_Veh_Ammo + IL_Supported_Barrel + IL_Supported_Tank + IL_Supported_Box_H1 + IL_Supported_Box_H2 + IL_Supported_Cargo20;
 	IL_Supported_Cargo_Kamaz = IL_Supported_Cargo_Veh_Kamaz + IL_Supported_Cargo_NonVeh_Kamaz;
 
@@ -512,7 +512,7 @@ if (isnil "IL_Variables") then
 	IL_Supported_Cargo_NonVeh_TEMPEST = IL_Supported_Cargo_NonVeh_HEMTT;
 	IL_Supported_Cargo_TEMPEST = IL_Supported_Cargo_Veh_TEMPEST + IL_Supported_Cargo_NonVeh_TEMPEST;
 
-	IL_Supported_Cargo_Veh_Mohawk = IL_Supported_Quadbike + IL_Supported_Rubberboat + IL_Supported_SDV + IL_Supported_Hatchback + IL_Supported_UGV;
+	IL_Supported_Cargo_Veh_Mohawk = IL_Supported_Quadbike + IL_Supported_Karts + IL_Supported_Rubberboat + IL_Supported_SDV + IL_Supported_Hatchback + IL_Supported_UGV;
 	IL_Supported_Cargo_NonVeh_Mohawk = IL_Supported_Supply_Crate + IL_Supported_Veh_Ammo + IL_Supported_Barrel + IL_Supported_Tank;
 	IL_Supported_Cargo_Mohawk = IL_Supported_Cargo_Veh_Mohawk + IL_Supported_Cargo_NonVeh_Mohawk;
 
