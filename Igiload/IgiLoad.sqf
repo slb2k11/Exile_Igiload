@@ -488,7 +488,8 @@ if (isnil "IL_Variables") then
 		"B_Slingload_01_Repair_F",
 		"B_Slingload_01_Cargo_F"
 	];
-	
+	//needed for the new Initialization, put all supported Vehicles & all supported Cargo in!!!
+	IL_Supported_Init_All = IL_Supported_Karts + IL_Supported_HEMTT + IL_Supported_KAMAZ + IL_Supported_TEMPEST + IL_Supported_Strider + IL_Supported_Hunter + IL_Supported_Ifrit + IL_Supported_UGV + IL_Supported_VAN + IL_Supported_OFFROAD + IL_Supported_SUV + IL_Supported_Hatchback + IL_Supported_Quadbike + IL_Supported_Supply_Crate + IL_Supported_Veh_Ammo + IL_Supported_Rubberboat + IL_Supported_SDV + IL_Supported_Box_H1 + IL_Supported_Box_H2 + IL_Supported_Cargo20 + IL_Supported_TaruPods
 	
 	IL_Supported_Cargo_MH9 = IL_Supported_Supply_Crate + IL_Supported_Barrel; 
 
