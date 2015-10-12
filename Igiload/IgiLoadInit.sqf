@@ -33,7 +33,7 @@ call compileFinal preprocessFileLineNumbers "IgiLoad\IgiLoadTaru.sqf";
 while {true} do 
 {
 	sleep (IL_Check_Veh_Min + (random (IL_Check_Veh_Max - IL_Check_Veh_Min)));
-	
+	IL_LST_Count = nearestObjects[getPos player,IL_Supported_Init_All,75];
 	//Delete vehicles from "IL_Veh_Array" if not in "vehicles"
 	{
 		if !(_x in vehicles) then
@@ -48,5 +48,5 @@ while {true} do
 			_null = [_x] execVM "IgiLoad\IgiLoad.sqf";
 			waitUntil {scriptDone _null};
 		};
-	} forEach (vehicles);
+	} forEach IL_LST_Count;
 };
