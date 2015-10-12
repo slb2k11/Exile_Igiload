@@ -1349,6 +1349,7 @@ if (isnil "IL_Procedures") then
 						};
 
 						_IL_noti = getText(configFile >> "cfgVehicles" >> typeOf _x >> "displayName");
+						_x call ExileServer_object_vehicle_database_update;
                         ["Success", format ["%1 successfully loaded!",_IL_noti]] call ExileClient_gui_notification_event_addNotification;
 						[Player, IL_Load_Score] call IL_Score;
 						};
